@@ -1,0 +1,88 @@
+.chartDisplay {
+  margin-top: 30px;
+  width: 1266px;
+  height: 428px;
+  background: #1b1f30;
+  border: 1px solid #393c4a;
+  border-radius: 13px;
+  margin-bottom: 66px;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding: 45px 30px;
+}
+
+.pieChart__container {
+  background: #1b1f30;
+  border: 1px solid #272935;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 337px;
+  position: relative;
+}
+
+.map__container {
+  width: 523px;
+  height: 337px;
+  background: #1b1f30;
+  border: 1px solid #272935;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.map__image > p {
+  font-size: 14px;
+}
+
+.box {
+  width: 22px;
+  height: 14px;
+  border-radius: 2px;
+}
+.legend {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.legend_count {
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.legend > p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stats__container {
+  width: 264px;
+  height: 337px;
+
+  background: #1b1f30;
+  border: 1px solid #272935;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 42px;
+  padding-left: 27px;
+  gap: 30px;
+}
+
+.statTitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.stat > p {
+  font-weight: 600;
+  font-size: 20px;
+}
